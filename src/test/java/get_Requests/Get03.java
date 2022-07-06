@@ -1,12 +1,13 @@
+package get_Requests;
+
+import base_Urls.JsonPlaceHolderBaseUrls;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.*;
 
-public class Get03 extends BaseUrls {
+public class Get03 extends JsonPlaceHolderBaseUrls {
 
     /*
         Given
